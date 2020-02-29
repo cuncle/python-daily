@@ -66,9 +66,9 @@ if __name__ == '__main__':
         ["111.xlsx", "测试通知2"],
         ["222.xlsx", "测试通知3"]
     ]
-    wksid = 'n-9D18F71F013545FD8A6A1C73CF408707'#cookies中的wksid
-    token = '99NXy4vbx9XIwEcRLkTbsdMnK7PH+g4Obtq3XwG3AlfW+svvH/+dgPRVVVasK+mxZTjxBJnDY/w='#yp-access-token
-    sub_id = '890000000020461940'#云片子号
+    wksid = ''#cookies中的wksid
+    token = ''#yp-access-token
+    sub_id = ''#云片子号
     signature = '【云片网】'#签名
     for i in range(len(list_filename_and_content)):
         filename=list_filename_and_content[i][0]
